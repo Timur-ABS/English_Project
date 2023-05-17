@@ -3,7 +3,8 @@ from aiogram import Bot, Dispatcher
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
 from aiogram.utils import executor
 
-from handlers import register_handlers
+from my_bot.handlers import register_handlers
+
 
 API_TOKEN = '6136256059:AAGQyeCjq6L7p5FWP9UAss_EdxGB1BoI_0o'
 
