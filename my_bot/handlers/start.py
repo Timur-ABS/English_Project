@@ -23,6 +23,8 @@ async def start_command(message: types.Message):
                              f"📋 To see the leaderboard press /leaderboard\n\n"
                              f"🟢 Click on the button to earn points", parse_mode=ParseMode.MARKDOWN,
                              reply_markup=InlineKeyboardMarkup().add(
-                                 InlineKeyboardButton('🚀 Play game', callback_data='play_game')).add(
+                                 InlineKeyboardButton('🚀 Hard game (25 point)', callback_data='play_game')).add(
+                                 InlineKeyboardButton('🏎 Simple game (+- 1 point)', callback_data='sim_game')
+                             ).add(
                                  InlineKeyboardButton('🚁 View instructions', callback_data='view_instructions')
                              ))
