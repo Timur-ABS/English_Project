@@ -6,7 +6,7 @@ from aiogram.utils import executor
 from my_bot.handlers import register_handlers
 
 
-API_TOKEN = '6136256059:AAGQyeCjq6L7p5FWP9UAss_EdxGB1BoI_0o'
+API_TOKEN = ''
 
 logging.basicConfig(level=logging.INFO)
 
